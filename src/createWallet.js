@@ -1,8 +1,3 @@
-# DIO Desafio Criando e Utilizando a Sua Carteira de Criptomoedas
-
-Nesse desafio vamos criar um gerador de carteiras bitcoin, utilizando pares de chave pública e privada. Você irá desenvolver um gerador para criar endereços de depósito e de envio de bitcoin para a carteira gerada. Além disso, vamos importar essa carteira dentro do Electrum, um aplicativo desktop pra enviar e receber transações em bitcoin, e por fim enviar criptomoedas.
-
-```javascript
 //importando as dependencias
 const bip32 = require('bip32')
 const bip39 = require('bip39')
@@ -36,4 +31,3 @@ console.log("Carteira gerada")
 console.log("Endereço: ", btcAddress)
 console.log("Chave privada:", node.toWIF())
 console.log("Seed:", mnemonic)
-```
